@@ -4,7 +4,9 @@
 ## Introduction
 * CSS는 Cascading StyleSheet의 약자입니다. 웹브라우저에 표시되는 HTML 문서의 스타일을 지정하는 (거의) 유일하지만 다루기 쉽지 않은 언어입니다. 이번 퀘스트를 통해 CSS의 기초적인 레이아웃 
 
-## Checklist
+
+
+# Checklist
 
 ## CSS를 HTML에 적용하는 세 가지 방법의 장단점은 무엇인가요?
 * Inline Style Sheet : HTML 태그의 style 속성에 CSS코드를 넣는 방법. 
