@@ -1,5 +1,8 @@
 # Quest 01. Hello, HTML
 
+## Introduction
+* HTML은 HyperText Markup Language의 약자로, 웹 브라우저에 내용을 표시하기 위한 가장 기본적인 언어입니다. 이번 퀘스트를 통해 HTML에 관한 기초적인 사항들을 알아볼 예정입니다.
+
 
 # Checklist
 ## HTML 4.x 이후의 HTML 표준의 변천사는 어떻게 되나요?
