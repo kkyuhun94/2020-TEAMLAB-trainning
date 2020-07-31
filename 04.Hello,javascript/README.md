@@ -19,7 +19,7 @@
 ## Result
 
 * 1차 결과물 (onlineshop.html,style.css,main.js)
-* 실제 제작한 이미지
+* 실제 제작한 이미지 (1.전체리스트(홈화면) 2.티셔츠버튼 클릭 시 3.Yellow 버튼 클릭 시)
 ---------------------------------
 <div>
   <img src="https://user-images.githubusercontent.com/68608357/89015263-b6bef100-d351-11ea-8118-b6c4fd9cee03.png" width="300" height="500">
