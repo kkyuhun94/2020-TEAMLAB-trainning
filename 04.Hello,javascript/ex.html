@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <script>
+      // 새로고침 이벤트 함수
+      function hidef() {
+        window.location.reload(true);
+      }
+
+      //한개만 지우는 함수
+      function removeNode() {
+        var parent = document.getElementById("target");
+        // var child = document.getElementById("blue");
+        var child = document.getElementById("blue");
+        parent.removeChild(child);
+      }
+      //파란색 다지우는 함수
+      function removeblue() {
+        var parent = document.getElementById("target");
+        // var child = document.getElementById("blue");
+        var child = document.getElementById("blue");
+        // while (parent.hasChildNodes())
+        // {
+        //   var child = document.getElementById("blue");
+        //   parent.removeChild(child);
+        // }
+        var i = 0;
+        while (i < 3)
+        {
+          var child = document.getElementById("blue");
+          parent.removeChild(child);
+          i = i+1;
+          console.log(i)
+        }
+
+      }
+      //분홍색 다지움
+      function removepink() {
+        var parent = document.getElementById("target");
+        // var child = document.getElementById("blue");
+        var child = document.getElementById("pink");
+        var i = 0;
+        while (i < 1)
+        {
+          var child = document.getElementById("pink");
+          parent.removeChild(child);
+          i = i+1;
+          console.log(i)
+        }
+      }
+
+      function removeyellow() {
+        var parent = document.getElementById("target");
+        // var child = document.getElementById("blue");
+        var child = document.getElementById("yellow");
+        var i = 0;
+        while (i < 2)
+        {
+          var child = document.getElementById("yellow");
+          parent.removeChild(child);
+          i = i+1;
+          console.log(i);
+          console.log(parent);
+        }
+      }
+      function removetshirt() {
+        var parent = document.getElementById("target")
+        var childs = document.getElementsByName("tshirt")
+        var i = 0;
+        while (i < 4) {
+
+          parent.removeChild(childs[0]);
+          i++;
+        }
+      }
+      function removepants() {
+        var parent = document.getElementById("target")
+        var childs = document.getElementsByName("pants")
+        var i = 0;
+        while (i < 2){
+          parent.removeChild(childs[0]);
+          i++;
+        }
+      }
+      function removeskirt() {
+        var parent = document.getElementById("target")
+        var childs = document.getElementsByName("skirt")
+        var i = 0;
+        while (i < 1){
+          parent.removeChild(childs[0]);
+          i++;
+        }
+      }
+
+
+
+    </script>
+  </head>
+  <button class="btn">
+    <img src="img/logo.png" alt="Logo" class="logo" onclick="hidef()">
+  </button>
+  <button class="btn">
+
+  <body>
+    <div class = "buttons">
+      <button class="btn" onclick ="removeskirt();removepants();">
+        <img src="img/blue_t.png" alt="blue_t" class="imgBtn" >
+      </button>
+      <button class="btn" onclick = "removetshirt();removeskirt();">
+        <img src="img/blue_p.png" alt="blue_p" class="imgBtn">
+      </button>
+      <button class="btn" onclick = "removepants();removetshirt();">
+        <img src="img/blue_s.png" alt="blue_s" class="imgBtn" >
+      </button>
+      <button class="btn colorBtn blue" onclick="removepink();removeyellow();">
+        Blue
+      </button>
+      <button class="btn colorBtn yellow" onclick="removepink();removeblue();">
+       Yellow
+      </button>
+      <button class="btn colorBtn pink" onclick ="removeblue();removeyellow();">
+        Pink
+      </button>
+    </div>
+    <ul class="items" id="target">
+      <button onclick="Delete(this.bt);">Delete</button>
+      <li class ="item" id="blue" name ="tshirt">
+        <img src="img/blue_t.png" alt="tshirt" class="item_thumbnail">
+        <span class ="item_description">male,large</span>
+      </li>
+      <li class ="item" id="blue" name ="tshirt">
+        <img src="img/blue_t.png" alt="tshirt" class="item_thumbnail">
+        <span class ="item_description">male,large</span>
+      </li>
+      <li class ="item" id="yellow" name ="tshirt">
+        <img src="img/yellow_t.png" alt="tshirt" class="item_thumbnail">
+        <span class ="item_description">male,large</span>
+      </li>
+      <li class ="item" id="pink" name ="tshirt">
+        <img src="img/pink_t.png" alt="tshirt" class="item_thumbnail">
+        <span class ="item_description">female,large</span>
+      </li>
+      <li class ="item" id="blue" name= "pants">
+        <img src="img/blue_p.png" alt="pants" class="item_thumbnail">
+        <span class ="item_description">male,large</span>
+      </li>
+      <li class ="item" id="yellow" name ="pants">
+        <img src="img/yellow_p.png" alt="pants" class="item_thumbnail">
+        <span class ="item_description">female,large</span>
+      </li>
+      <li class ="item" id="yellow" name ="skirt">
+        <img src="img/yellow_s.png" alt="skirt" class="item_thumbnail">
+        <span class ="item_description">female,large</span>
+      </li>
+    </ul>
+
+  </body>
+
+</html>

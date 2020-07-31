@@ -1,4 +1,4 @@
-{
+data =
   "items":[
     {
       "type" :"tshirt",
@@ -64,4 +64,3 @@
       "image" : "../img/yellow_s.png"
     }
   ]
-}

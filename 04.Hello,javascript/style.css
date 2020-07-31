@@ -95,7 +95,7 @@ body {
   height: 60%;
   list-style: none;
   padding-left: 0;
-  overflow-y: scroll; /* 전체페이지가 스크롤이 되지않고 items만 스크롤 y축 방향 */ 
+  overflow-y: auto; /* 전체페이지가 스크롤이 되지않고 items만 스크롤 y축 방향 ,자동으로 길때만 스크롤바 생성*/
 }
 
 .item{
