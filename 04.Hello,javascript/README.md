@@ -5,6 +5,7 @@
 * 이번 퀘스트에서는 HTML,CSS,JavaScript를 이용해 동적 웹 페이지를 모사해 퍼블리싱하는 것에 도전해볼 예정입니다.
 * https://www.youtube.com/watch?v=We2Kv1HMGvc&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=17 (드림코드) 영상을 참고하여 클론코딩 하기
 * 예시 사진 - 드림코드
+--------------------
 ![original](https://user-images.githubusercontent.com/68608357/89014169-14523e00-d350-11ea-94fc-98a3c6cc3a9f.png)
 
 
